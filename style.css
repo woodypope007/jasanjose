@@ -64,7 +64,7 @@ section p {
 
 /* Intro Section */
 #intro h4 {
-    font-size: 20px;
+    font-size: 400px;
     padding: 1rem 0;
     color: #ffffffc7;
 }
@@ -96,8 +96,8 @@ section p {
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
