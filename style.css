@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #333333ce;
+    color: white;
+    z-index: 100;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    min-height: 100vh;
+    background: #000;
+    color: white;
+    display: grid;
+    place-content: center;
+    padding: 0 clamp(1rem, 12vw, 20rem);
+    text-align: center;
+}
+
+section h1 {
+    font-size: 64px;
+    text-transform: capitalize;
+}
+
+section p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Intro Section */
+#intro h4 {
+    font-size: 20px;
+    padding: 1rem 0;
+    color: #ffffffc7;
+}
+
+/* Skills Section */
+.skill-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(128, 127, 127, 0.92);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f7f1f1;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+#info ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+#social-link ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+#social-link ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    section h1 {
+        font-size: 48px;
+    }
+
+    section p {
+        width: 80%;
+    }
+
+    .skill-cards {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    section h1 {
+        font-size: 36px;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+}
+#profile{
+    border: 3px black solid;
+    border-radius: 40px;
+}
+#img1{
+    border: 3px black solid;
+    border-radius: 40px;
+    
+}
+.image{
+    text-align: right;
+}
+p{
+    padding-bottom: 30px;
+}
+h1{
+    text-align: center;
+}

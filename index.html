@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasan | Profile</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+
+<body>
+    <header>
+        <h2><i><b>JJ</b></i></h2>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#intro">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="img">
+            <img src="img1.jpeg" height="270px" width="230px" id="profile" alt="">
+            </div>
+            <h1><i>Jasan Jose</i></h1>
+            <h4><strong>I'm a Developer</strong></h4>
+            <p>Hello! I am Jasan Jose, a passionate B.Tech student specializing in Computer Science Engineering at LPU, Jalandhar. The passion to merge creativity with functionality drives my journey in tech, especially when it comes to crafting unique, visually engaging websites using JavaScript, CSS, and HTML. Apart from web development, I have a good background in programming with C++ and Python, which allows me to take on a range of projects. One of my most memorable projects is the design and construction of a micromouse robot using Arduino Uno; this reflects my ability to bring ideas to life using code and hardware integration, and I am eager to push the boundaries of innovation in every project.</p>
+            
+        </section>
+
+        <section id="skills">
+            <h1>Skills  <img src="img2.jpeg" height="270px" width="230px" id="img1" alt=""></h1>
+            <div class="skill-cards">
+                <div class="card">
+                    <img src="https://img.icons8.com/?size=100&id=Yfprg8CASXbD&format=png&color=000000" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="card">
+                    <img src="https://img.icons8.com/?size=100&id=2tHbkMhSLMfq&format=png&color=000000" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="card">
+                    <img src="https://img.icons8.com/?size=100&id=RwtOBojoLS2N&format=png&color=000000" alt="JavaScrip">
+                    <p>JavaScrtip</p>
+                </div>
+                <div class="card">
+                    <img src="https://img.icons8.com/?size=100&id=hZvpN3zV45Yf&format=png&color=000000" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="card">
+                    <img src="https://t3.ftcdn.net/jpg/04/86/92/64/360_F_486926432_nTajrw7kw3ZojWPuw8KYtALliA9srHGe.jpg" alt="Robotics">
+                    <p>Robotics</p>
+                </div>
+                <div class="card">
+                    <img src="https://img.icons8.com/?size=100&id=26309&format=png&color=000000" alt="Electronics">
+                    <p>Electronics</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Me 😁</h1><br>
+            <p><strong>Email:</strong><a href="mailto:jasanjose4602@gmail.com">jasanjose4602@gmail.com</a></p><br>
+            <p><strong>Phone:</strong> +91-9778156508</p><br>
+            <p><strong>Address:</strong> Nadathara Chiramal(H), Thrissur City, India</p>
+        </section>
+    </main>
+    <footer>
+        <div id="info">
+            <p>© 2024 Jason Jose reserved</p>
+            <ul>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="social-link">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/jasanjoseofficial/">
+                        <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=EBEBEB" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/jasanjoseofficial/">
+                        <img src="https://img.icons8.com/?size=100&id=118468&format=png&color=EBEBEB" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jasan-jose-55437a244/">
+                        <img src="https://img.icons8.com/?size=100&id=447&format=png&color=EBEBEB" alt="linkedIn">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
